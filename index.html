@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start">
+        Start Quiz!
+    </div>
+    <div id="quiz" style="display: none;">
+        <div id="quizImg"><img src="" alt=""></div>
+
+        <div id="question"> <p>Question</p></div>
+
+        <div id="timer">
+            <div id="counter">15</div>
+            <div id="backgroundTimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+    </div>
+
+    <div id="choices">
+        <div class="choices" id="A" onclick="checkAnswer('A')">A</div>
+        <div class="choices" id="B" onclick="checkAnswer('B')">B</div>
+        <div class="choices" id="C" onclick="checkAnswer('C')">C</div>
+    </div>
+
+    <div id="status">
+        <div class="stat"></div>
+    </div>
+
+    <div id="scoreContainer" style="display:none;">
+        <div id="highScore">
+            <p id="nameBox"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
