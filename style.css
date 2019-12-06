@@ -209,4 +209,20 @@ h1{
     font-size: 20px;
 }
 
+#leaderBoard{
+    background-color: blue;
+    font-size: 10px;
+    font-weight: bolder;
+    word-break: break-all;
+    width:150px;
+    height:25px;
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:700px;
+    top:600px;
+    color : lightgrey;
+
+}
 

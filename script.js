@@ -15,81 +15,81 @@ var name = document.getElementById("name");
 let questions = [
     {
         question: "What is string interpolation?",
-        choiceA:"Changing the value of a variable.",
-        choiceB:"Using template literals to embed variables into strings.",
-        choiceC:"Joining multiple strings together using operators like +",
+        choiceA:"A: Changing the value of a variable.",
+        choiceB:"B: Using template literals to embed variables into strings.",
+        choiceC:"C: Joining multiple strings together using operators like +",
 
         correct:"B"
     },
     {
         question:"What is the correct way to call a string’s built-in method?",
-        choiceA:"'Lorenzo'.toUpperCase();",
-        choiceB:"toUpperCase('Lorenzo');",
-        choiceC:"'Lorenzo'.toUpperCase;",
+        choiceA:"A: 'Lorenzo'.toUpperCase();",
+        choiceB:"B: toUpperCase('Lorenzo');",
+        choiceC:"C: 'Lorenzo'.toUpperCase;",
 
         correct:"A"
     },
     {
         question:"Which of the following is an example of a single line comment?",
-        choiceA:"console.log('Is this a comment?');",
-        choiceB:"console.log()",
-        choiceC:"// Is this a comment?",
+        choiceA:"A: console.log('Is this a comment?');",
+        choiceB:"B: console.log()",
+        choiceC:"C: // Is this a comment?",
 
         correct:"C"
     },
     {
         question:"What is the correct way to call the random method on the Math global object?",
-        choiceA:"random.Math()",
-        choiceB:"Math(random)",
-        choiceC:"Math.random()",
+        choiceA:"A: random.Math()",
+        choiceB:"B: Math(random)",
+        choiceC:"C: Math.random()",
 
         correct:"C"
     },
     {
         question:"What are variables used for in JavaScript?",
-        choiceA:"For storing or holding data.",
-        choiceB:"For changing language settings.",
-        choiceC:"For changing a value’s data type.",
+        choiceA:"A: For storing or holding data.",
+        choiceB:"B: For changing language settings.",
+        choiceC:"C: For changing a value’s data type.",
 
         correct:"A"
     },
     {
         question:"What is the correct way to declare a new variable that you can change?",
-        choiceA:"myName = 'Sloan';",
-        choiceB:"let myName = 'Sloan';",
-        choiceC:"const myName = 'Sloan';",
+        choiceA:"A: myName = 'Sloan';",
+        choiceB:"B: let myName = 'Sloan';",
+        choiceC:"C: const myName = 'Sloan';",
 
         correct:"B"
     },
     {
         question:"What is string concatenation?",
-        choiceA:"When you assign a string to a variable.",
-        choiceB:"When you change a variable’s value.",
-        choiceC:"When you join strings together.",
+        choiceA:"A: When you assign a string to a variable.",
+        choiceB:"B: When you change a variable’s value.",
+        choiceC:"C: When you join strings together.",
 
         correct:"C"
     },
     {
         question:"Which of these is returned by operator '&' ?",
-        choiceA:"Character",
-        choiceB:"Boolean",
-        choiceC:"Integer",
+        choiceA:"A: Character",
+        choiceB:"B: Boolean",
+        choiceC:"C: Integer",
 
         correct:"A"
     },
     {
         question:"Which symbol is used to contain the values of automatically initialized arrays?",
-        choiceA:"Brackets",
-        choiceB:"Braces",
-        choiceC:"Parentheses",
+        choiceA:"A: Brackets",
+        choiceB:"B: Braces",
+        choiceC:"C: Parentheses",
 
         correct:"B"
     },
     {
         question:"In Java code, the line that begins with /* and ends with */ is known as?",
-        choiceA:"Single line comment",
-        choiceB:"Multiline comment",
-        choiceC:"Both A & B",
+        choiceA:"A: Single line comment",
+        choiceB:"B: Multiline comment",
+        choiceC:"C: Both A & B",
 
         correct:"B"
     }
